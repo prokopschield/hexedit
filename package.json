@@ -1,0 +1,24 @@
+{
+	"name": "@prokopschield/hexedit",
+	"description": "command-line hex editor",
+	"version": "0.0.1-1",
+	"main": "lib/index.js",
+	"bin": {
+		"hexedit": "lib/cli.js"
+	},
+	"scripts": {
+		"start": "node lib/cli",
+		"test": "npx nslibmgr test"
+	},
+	"author": "Prokop Schield",
+	"devDependencies": {
+		"@types/node": ">=14"
+	},
+	"keywords": [],
+	"license": "ISC",
+	"dependencies": {
+		"@prokopschield/argv": "^0.1.0",
+		"@prokopschield/mmap": "^0.1.0-2",
+		"pretty-print-buffer": "^0.1.0-3"
+	}
+}
